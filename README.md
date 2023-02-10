@@ -1,6 +1,6 @@
 # UiProjects
 
-Здесь представлены проекты с User Interface Design 
+Здесь представлены проекты с User Interface
 
 На языке программирования Python3 реализованы:
 
