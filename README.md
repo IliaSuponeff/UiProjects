@@ -7,3 +7,4 @@
 * __*Генератор паролей*__: ./PassGen
 * __*YouTubeVideoDownloader*__ ./YoutubeVideoDownloader
 * __*Calculator*__ ./Calculator
+* __*StudentManager*__ ./StudentManager

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>243</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Создание отчёта</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+	color: white;
+	background-color: qlineargradient(spread:reflect, x1:0.647, y1:0.483864, x2:0, y2:0.972, stop:0.298507 rgba(130, 0, 255, 255), stop:0.935323 rgba(255, 102, 102, 255));
+	font: 75 12pt &quot;Rubik&quot;;
+}
+QLabel {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QComboBox {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QLineEdit {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton {
+	background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton:pressed {	
+	color: black;
+	background-color: #666;
+}
+
+QPushButton:hover {
+	background-color: #aaa;
+}
+
+QTableView {
+	background-color: rgba(255, 255, 255, 30); 
+	border: 1px solid rgba(255,255,255,40);
+	border-bottom-right-radius: 7px; 
+	border-bottom-left-radius: 7px; 
+	color: white;
+}
+
+QHeaderView::section {
+	background-color: rgb(53, 53, 53);
+	color: white;
+	height: 50px;
+	font-size: 16pt;
+}
+
+QTableView::item {
+    border-style: none;
+    border-bottom: 1px solid rgba(255,255,255,50);
+    padding-left: auto;
+    padding-right: auto;
+}
+
+QTableView::item:selected{
+	border: none;
+	color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 50);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="1" column="0">
+      <widget class="QLabel" name="lbl_2">
+       <property name="text">
+        <string>Имя</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="file_type_box"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="lbl_1">
+       <property name="text">
+        <string>Тип файла</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="get_path_btn">
+       <property name="text">
+        <string>Выбрать путь для сохранения</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="file_name_le">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="path_save_le">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="create_results_btn">
+     <property name="text">
+      <string>Создать</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
