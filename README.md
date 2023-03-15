@@ -8,3 +8,4 @@
 * __*YouTubeVideoDownloader*__ ./YoutubeVideoDownloader
 * __*Calculator*__ ./Calculator
 * __*StudentManager*__ ./StudentManager
+* __*Простой текстовый редактор*__ ./NotePad
