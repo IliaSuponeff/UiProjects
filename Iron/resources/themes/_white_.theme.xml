@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+    <name>Light</name>
+    <version>1.0</version>
+    <style_sheet type="file">light.theme.css</style_sheet>
+</Theme>

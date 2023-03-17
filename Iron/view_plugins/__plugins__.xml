@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Plugns>
+    <plugin name="standart-plugin">
+        <path>view_plugins/std_plugin/StdPlugin</path>
+        <version>1.0</version>
+    </plugin>
+</Plugns>
