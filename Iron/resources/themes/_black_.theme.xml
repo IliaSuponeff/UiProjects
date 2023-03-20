@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+    <name>Dracula</name>
+    <version>1.0</version>
+    <style_sheet type="file">dark.theme.css</style_sheet>
+</Theme>

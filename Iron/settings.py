@@ -7,11 +7,18 @@ from PyQt5.QtGui import QIcon
 
 
 class StdSettings:
+    """
+    Class which realized standart app settings
+    """
     ROOT = os.path.dirname(os.path.abspath(__file__))
     RESOURCES_DIR = os.path.join(ROOT, "resources")
     PLUGINS_DIR = os.path.join(ROOT, "view_plugins")
 
     def __init__(self, debug=True):
+        """
+        Initialize app settings
+        :param debug:
+        """
         self._DEBUG = debug
         self.current_plugin = 0
         self.current_theme = 0
@@ -22,6 +29,10 @@ class StdSettings:
         self.plugins = []
 
     def get_title(self):
+        """
+
+        :return: str, which contain ap title text
+        """
         return f"Iron{'[DEBUG=True]' if self._DEBUG else ''}"
 
     def get_current_theme(self):

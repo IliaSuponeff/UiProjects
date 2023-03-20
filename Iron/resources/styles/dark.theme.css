@@ -1,6 +1,6 @@
 QWidget {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 	font: 16pt "Segoe UI Emoji";
 }
 
@@ -9,8 +9,8 @@ QMenuBar {
 }
 
 QMenuBar::item:selected {
-    background-color: rgb(0, 85, 127);
     color: white;
+    background-color: #0F1EC6;
 }
 
 QMenu {
@@ -18,7 +18,6 @@ QMenu {
 }
 
 QMenu::item:selected{
-    background-color: rgb(0, 85, 127);
     color: white;
+    background-color: #0F1EC6;
 }
-

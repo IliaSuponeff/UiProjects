@@ -4,5 +4,6 @@
     <window_icon>icon.png</window_icon>
     <current_theme type="int">0</current_theme>
     <theme>_white_</theme>
-    <plugin>standart-plugin</plugin>
+    <theme>_black_</theme>
+    <plugin>notebook-plugin</plugin>
 </TextEditorSettings>

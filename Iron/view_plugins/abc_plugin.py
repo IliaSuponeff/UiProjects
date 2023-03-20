@@ -8,6 +8,7 @@ class AbcPlugin(QWidget):
         super().__init__()
         self.parent = parent
         self.settings = settings
+        self.RESOURCES_DIR = settings.RESOURCES_DIR
         self.init_view()
         self.init_handlers()
 
